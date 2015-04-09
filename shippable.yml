@@ -15,7 +15,6 @@ before_script:
    - which mvn
    - ls -al /usr/bin/mvn
    - mvn --version
-   - sleep 100
    #- apt-get install -y maven
    
 after_success:
